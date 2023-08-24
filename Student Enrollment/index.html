@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"stdhead>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enrollment Of Student</title>
+</head>
+<body>
+    <div id="heading"><h1>Student Enrollment Form</h1></div>
+    <div id="container">
+        <form action="#" id="form">
+            <label class="label" for="name">Name</label>
+            <input class="inp" type="text" id="name" name="Name" required>
+            <br>
+            <label class="label" for="email">Email</label>
+            <input class="inp" type="email" id="email" name="Email" required>
+            <br>
+            <label class="label" for="website">Website</label>
+            <input class="inp" type="text" id="website" name="website" required>
+            <br>
+            <label class="label" for="Imagelink">Image Link</label>
+            <input class="inp" type="url" id="Imagelink" name="Imagelink" required>
+            <br>
+            <label class="label">Gender</label>
+            <label for="Male"><input type="radio" name="gender" value="Male" id="Male" checked> Male</label>
+            <label for="Female"><input type="radio" name="gender" value="Female" id="Female" > Female</label>
+            <br>
+            <br>
+            <label class="label">Skills</label>
+            <label class="check" for="java"><input class="select" type="checkbox" name="skill" value="JAVA" id="java">Java</label>
+            <label class="check" for="html"><input class="select" type="checkbox" name="skill" value="HTML" id="html">HTML</label>
+            <label class="check" for="css"><input class="select" type="checkbox" name="skill" value="CSS" id="css">CSS</label>
+            <br>
+            <br>
+            <button type="submit" id="btn">Enroll Student</button>
+            <input id="btnc" type="reset" value="Clear">
+        </form>
+            
+        <div id="student">
+            <div id="enrollstd">
+                <h2>Enrolled Students</h2>
+                <div id="stdhead">
+                    <p>Description</p>
+                    <p>Image</p>
+                </div>
+                <div class="std">
+                    <div id="enroll1">
+                        Sriyan Bera<br>sriyan2023@gmail.com<br><a href="https://amazon.com/" target="_blank">amazon.com</a><br>Male<br>HTML
+                    </div>
+                    <div id="enroll2">
+                        <img src="https://img.favpng.com/1/20/21/businessperson-computer-icons-avatar-png-favpng-B8ky3XmC82yLn1QkdvZ17t1vC.jpg" height="110px" width="120px"; alt="back">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
